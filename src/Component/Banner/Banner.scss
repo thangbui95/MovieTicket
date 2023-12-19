@@ -1,0 +1,290 @@
+.banner {
+    position: relative;
+
+    .bannerpicture {
+        img {
+            width: 100%;
+        }
+    }
+
+    .quickticket {
+        position: absolute;
+        right: 4%;
+        top: 2%;
+        background-color: rgb(0, 0, 0, 0.8);
+        width: 30%;
+
+        h3 {
+            color: white;
+            background-color: red;
+            padding: 10px 20px;
+            width: 50%;
+            font-size: 15px;
+            text-transform: uppercases;
+        }
+
+        .optioncover {
+            display: flex;
+            color: white;
+            padding: 10px;
+
+            p {
+                padding: 7px;
+                flex: 1;
+                border-bottom: 1px solid white;
+            }
+        }
+        .selectcover {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+
+            select {
+                background-color: gray;
+                padding: 5px;
+                color: white;
+                margin-bottom: 8px;
+            }
+        }
+        .buttoncover {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            button {
+                border: none;
+                background-color: red;
+                padding: 10px;
+                color: white;        
+            }
+        }
+    }
+
+    .afterbanner {
+        display: flex;
+        justify-content: center;
+        .cover {
+            width: 85%;
+            .movie {
+                .up {
+                    display: flex;
+                    margin: 35px 0px 8px 0;
+                    p {
+                        text-transform: uppercase;
+                        padding: 0 30px 8px 0;
+                        border-bottom: 1px solid gray;
+                        font-size: 30px;
+                    }
+                }
+                .down {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-bottom: 30px;
+                    height: 60vh;
+                    overflow: hidden;
+                    .contentcover {
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-bottom: 10px;
+                        box-sizing: border-box;
+                        .moviecover {
+                            width: 25%;
+                            padding: 0 30px 30px 0;
+
+                            img {
+                                width: 100%;
+                                margin-bottom: 5px;
+                            }
+                            .vn {
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+                .buttoncover {
+                    display: flex;
+                    justify-content: flex-end;
+                    button {
+                        color: red;
+                        border: 1px solid red;
+                        padding: 12px;
+                        span {
+                            margin-left: 5px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+
+            .comment {
+                display: flex;
+                .left {
+                    width: 50%;
+                    box-sizing: border-box;
+                    padding: 0 20px 0 0;
+                    height: 55vh;
+                    overflow: hidden;
+                    h3 {
+                        width: 50%;
+                        text-transform: uppercase;
+                        border-bottom: 1px solid red;
+                        padding: 0 0 10px 0;
+                        margin-bottom: 20px;
+                        font-size: 30px;
+                    }
+                    .info {
+                        display: flex;
+                        margin-bottom: 20px;
+                        img {
+                            width: 40%;
+                            margin-right: 20px;
+                        }
+                        .content {
+                            >div{
+                                display: flex;
+                                margin-top: 10px;
+                                // justify-content: space-between;
+                                >div{
+                                    margin-right: 5px;
+                                }
+                            }
+                            .vn {
+                                color: gray;
+                                font-style: italic;
+                            }
+                            .content_like{
+                                background-color: rgb(95, 95, 221);
+                                color: white;
+                                display: flex;
+                                justify-content: space-between;
+                                font-size: 14px;
+                                width: 80px;
+                                padding: 3px;
+                                height: 20px;
+                                // margin: 0px 0px 0px 10px;
+                                cursor: pointer;
+                            }
+                            .content_view{
+                                background-color: rgb(244, 243, 243);
+                                padding: 5px;
+                                font-size: 14px;
+                                width: 70px;
+                                height: 30px;
+                                
+                            }
+                            .content_start{
+                                .star{
+                                    color: rgb(255, 255, 15);
+                                    font-size: 25px;
+                                }
+                                .hidden{
+                                    color: rgb(107, 107, 107);
+                                }
+                            }
+                        }
+                    }
+                }
+                .right {
+                    width: 50%;
+                    box-sizing: border-box;
+                    padding: 0 20px 0 0;
+                    height: 55vh;
+                    overflow: hidden;
+                    h3 {
+                        width: 50%;
+                        text-transform: uppercase;
+                        border-bottom: 1px solid red;
+                        padding: 0 0 10px 0;
+                        margin-bottom: 20px;
+                        font-size: 30px;
+                    }
+                    .info {
+                        display: flex;
+                        margin-bottom: 20px;
+                        img {
+                            width: 40%;
+                            margin-right: 20px;
+                        }
+                        .content {
+                            >div{
+                                display: flex;
+                                margin-top: 10px;
+                                >div{
+                                    margin-right: 5px;
+                                }
+
+                            }
+                            .vn {
+                                color: gray;
+                                font-style: italic;
+                            }
+                            .content_like{
+                                background-color: rgb(95, 95, 221);
+                                color: white;
+                                display: flex;
+                                font-size: 14px;
+                                height: 20px;
+                                width: 70px;
+                                
+                            }
+                            .content_view{
+                                background-color: rgb(244, 243, 243);
+                                padding: 5px;
+                                font-size: 14px;
+                                width: 70px;
+                            
+                            }
+                            .content_start{
+                                .star{
+                                    color: rgb(255, 255, 15);
+                                    font-size: 25px;
+                                }
+                                .hidden{
+                                    color: rgb(107, 107, 107);
+                                }
+                            }
+                        }
+                    }
+                } 
+            margin-bottom: 20px;
+            }
+
+            .discount {
+                h3 {
+                    width: 20%;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid red;
+                    padding: 0 0 10px 0;
+                    margin-bottom: 20px;
+                }
+                .downcontent {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .picCover {
+                        width: 25%;
+                        padding: 0 10px 10px 0;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                margin-bottom: 20px;
+            }
+            .about {
+                h3 {
+                    width: 20%;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid red;
+                    padding: 0 0 10px 0;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 12px;
+                    margin: 20px 0;
+                    >b{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

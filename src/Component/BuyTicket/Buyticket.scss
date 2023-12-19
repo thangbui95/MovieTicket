@@ -1,0 +1,153 @@
+.buyticket {
+    margin-bottom: 30px;
+    .option {
+        display: flex;
+        border-bottom: 1px solid lightgray;
+        a {
+            margin: 18px 20px 10px 0;
+            text-decoration: none;
+            color: black;
+        }
+        
+    }
+    .contentCover {
+        
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        .movie1 {
+            cursor: pointer;
+            flex: 1;
+            // background-color: brown;
+            box-sizing: border-box;
+            h1 {
+                color: white;
+                background-color: red;
+                text-align: center;
+                font-size: 15px;
+                font-weight: lighter;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+            .moviecover {
+                padding: 15px;
+                box-sizing: border-box;
+                border-bottom: 1px solid lightgray;
+                border-left: 1px solid lightgray;
+                border-right: 1px solid lightgray;
+
+                img {
+                    margin-right: 4px;
+                }
+    
+                .icon {
+                    float: right;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 2px;
+                    background-color: red;
+                    font-size: 10px;
+                }
+    
+                p {
+                    font-size: 12px;
+                }
+                .vn {
+                    color: gray;
+                    margin-top: 2px;
+                }
+            }
+        }
+    
+        .theater {
+            margin: 0 20px;
+            flex: 1;
+            box-sizing: border-box;
+            cursor: pointer;
+
+
+            h1 {
+                color: white;
+                background-color: red;
+                text-align: center;
+                font-size: 15px;
+                font-weight: lighter;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+            .theatercover {
+                padding: 12px;
+                box-sizing: border-box;
+                border-bottom: 1px solid lightgray;
+                border-left: 1px solid lightgray;
+                border-right: 1px solid lightgray;
+
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    
+        .time {
+            flex: 1;
+            box-sizing: border-box;
+            h1 {
+                color: white;
+                background-color: red;
+                text-align: center;
+                font-size: 15px;
+                font-weight: lighter;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+            .timecover {
+                padding: 12px;
+                box-sizing: border-box;
+                border-bottom: 1px solid lightgray;
+                border-left: 1px solid lightgray;
+                border-right: 1px solid lightgray;
+
+                p {
+                    font-size: 12px;
+                }
+                .coverbelow {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    display: flex;
+                    .type {
+                        font-size: 10px;
+                        width: 35%;
+                    }
+                    .timeshowcover {
+                        cursor: pointer;
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 65%;
+                        .timeshow {
+                            
+                            width: 40%;
+                            font-size: 10px;
+                            padding: 5px;
+                            text-align: center;
+                            border: 1px solid lightgray;
+                            box-sizing: border-box;
+                            margin-right: 10px;
+                            margin-bottom: 10px;
+                        }
+                        span {
+                            display: inline-block;
+                        }
+
+                    }
+                }
+                
+            }
+        }
+        
+    }
+
+    
+
+
+    
+}

@@ -1,0 +1,215 @@
+.movie {
+    // margin-top: 50px;
+    .route {
+        margin: 25px 0;
+        font-size: 12px;
+    }
+    >p {
+        color: gray;
+        >span {
+            color: black;
+        }
+    }
+    >p >span {
+        color: black;
+    }
+
+    .belowcover {   
+        display: flex;
+        .left {
+            width: 75%;
+
+            .overallcover {
+                display: flex;
+                img {
+                    margin-right: 25px;
+                }
+                .overallcontent {
+                    .namecover {
+                        font-size: 20px;
+                        .vn {
+                            color: gray;
+                        }
+                    }
+                    .rating {
+                        display: flex;
+                        margin: 15px 0;
+                        span {
+                            margin-right: 8px;
+                            font-size: 12px;
+                        }
+                        .review {
+                            color: white;
+                            background-color: red;
+                            font-weight: light;
+                            padding: 5px;
+                            font-size: 10px;
+                        }
+                    }
+                    .otherinfo {
+                        font-size: 12px;
+                        margin-bottom: 15px;
+                        .type {
+                            color: white;
+                            background-color: red;
+                            padding: 3px;
+                        }
+                        span {
+                            margin-right: 15px;
+                        }
+                        .like {
+                            color: white;
+                            background-color: blueviolet;
+                            padding: 1px 8px;
+                            font-size: 10px;
+                        }
+                        .share {
+                            color: white;
+                            background-color: blueviolet;
+                            padding: 1px 8px;
+                            font-size: 10px;
+                        }
+                    }
+                    >p {
+                        color: gray;
+                        >span {
+                            color: black;
+                        }
+                        font-size: 12px;
+                        margin: 5px 0;
+                    }
+                }
+            }
+    
+            .description {
+                h3 {
+                    color: #262424;
+                    margin: 30px 0 15px 0;
+                }
+                p {
+                    color: rgb(38, 36, 36);
+                    font-size: 12px;
+                }
+            }
+    
+            .show {
+                h3 {
+                    color: rgb(38, 36, 36);
+                    margin: 30px 0 15px 0;
+                }
+                .location {
+                    display: flex;
+                    margin-bottom: 20px;
+                    select, input {
+                        border: 1.5px solid lightgray;
+                        padding: 3px;
+                    }
+                    select {
+                        flex: 1;
+                    }
+                    input {
+                        flex: 1;
+                        margin: 0 15px;
+                    }
+                }
+                .locationdetail {
+                    .theatername {
+                        margin-bottom: 30px;
+                        >span {
+                            color: white;
+                            background-color: red;
+                            padding: 10px 50px 10px 10px;
+                            display: inline-block;
+                            font-size: 15px;
+                        }
+                        .type_time {
+                            padding: 30px 15px;
+                            font-size: 12px;
+                            border: 1px solid gray;
+                            display: flex;
+                            .type {
+                                font-size: 12px;
+                                width: 30%;
+                            }
+                            .timecover {
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: 70%;
+                                .time {
+                                    width: 20%;
+                                    font-size: 10px;
+                                    padding: 2px;
+                                    text-align: center;
+                                    border: 1px solid lightgray;
+                                    box-sizing: border-box;
+                                    margin-right: 10px;
+                                    margin-bottom: 10px;
+                                }
+                        
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        
+        .right {
+            width: 25%;
+            margin-left: 10px;
+            .discount {
+                h3 {
+                    color: rgb(38, 36, 36);
+                    margin: 0px 0 15px 0;
+                }
+                .register {
+                    padding: 10px;
+                    border: 1px solid rgb(38,36,36);
+                    display: flex;
+                    flex-direction: column;
+                    input {
+                        margin-bottom: 10px;
+                        padding: 5px;
+                        font-size: 10px;  
+                        color: lightgray;
+                        border: 1px solid lightgray;
+                    }
+                    >button {
+                        background-color: red;
+                        padding: 5px;
+                        color: white;
+                        border: none;
+                        text-transform: uppercase;
+                        font-size: 10px;
+                    }
+                }  
+            }
+            .showing {
+                > h3 {
+                     color: rgb(38, 36, 36);
+                     margin: 30px 0 15px 0;
+                     text-transform: uppercase;
+                 }
+                 .movie {
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    .eng, .vn {
+                        font-size: 12px;
+                    }
+                    .eng {
+                        color: rgb(38, 36, 36);
+                    }
+                 }
+                 >button {
+                    color: red;
+                    border: 1px solid red;
+                    padding: 10px 14px;
+                    float: right;
+                    text-transform: uppercase;
+                 }
+             }
+        }
+    }
+    
+}

@@ -1,0 +1,99 @@
+.bannerinfor {
+    display: flex;
+    margin-top: 10px;
+    .outlet {
+        width: 70%;
+        margin-right: 20px;
+    }
+    .right {
+        width: 30%;
+        font-size: 16px;
+        padding: 8px;
+        background-color: rgba(239, 232, 232, 0.913);
+        .upcontent {
+            margin-bottom: 8px;
+            .img {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 5px;
+                img {
+                    width: 80%;
+                }
+            }
+            .eng {
+                font-weight: bold;
+                text-align: center;
+            }
+            .vn {
+                font-weight: bold;
+                color: gray;
+                margin-bottom: 8px;
+                text-align: center;
+            }
+            .detailtype {
+                font-size: 96x;
+                color: red;
+                .type {
+                    display: inline-block;
+                    color: white;
+                    background-color: red;
+                    padding: 2px 1px;
+                    font-size: 16px;
+                }
+            }
+        }
+        .downcontent {
+            .title {
+                display: inline-block;
+                font-weight: bold;
+                margin: 8px 0;
+                margin-right: 5px;
+                font-size: 86x;
+            }
+            hr {
+                border-style: dashed;
+                border-color: gray;
+            }
+            .descriptionfinal {
+                color: red;
+                font-size: 16px;
+                .titlefinal {
+                    color: black;
+                    font-weight: bold;
+                    margin: 8px 0;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .button{
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            button {
+            cursor: pointer;
+                border: none;
+                color: white;
+                background-color: red;
+                padding: 6px 14px;
+                text-align: center;
+            }
+        }
+        .button2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            button {
+                cursor: pointer;
+                border: none;
+                color: white;
+                background-color: red;
+                padding: 6px 14px;
+                text-align: center;
+            }
+        }
+    }
+}

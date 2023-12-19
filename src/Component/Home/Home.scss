@@ -1,0 +1,41 @@
+.home {
+    .headercover {
+        .headercover2{
+            display: flex;
+            justify-content: center;
+            .headercover3 {
+                width: 85%;
+                background-color: white;
+            }
+            
+            .footercover{
+                background-color: black;
+                display: flex;
+                justify-content: center;
+            }
+            .footercover2 {
+                width: 85%;
+                background-color: white;
+            }
+        }
+        .option {
+            display: flex;
+            background-color: black;
+            color: white;
+            width: 100%;
+            a {
+                text-transform: uppercase;
+                width: 14.28%;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                text-decoration: none;
+                background-color: red;
+                padding: 8px 0;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

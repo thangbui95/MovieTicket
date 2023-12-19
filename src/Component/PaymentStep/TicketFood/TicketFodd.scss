@@ -1,0 +1,123 @@
+.ticketfood {    
+    .left{
+        background-color: red;
+        padding: 10px;
+        >h3 {
+            color: white;
+            margin: 10px 0 15px 0;
+        }
+        .tickettype {
+            table {
+                border-collapse: collapse;
+                font-size: 16px;
+                width: 100%;
+                thead {
+                    color: white;
+                    background-color: rgb(88, 37, 37);
+                    text-align: left;
+                    font-size: 16px;
+                    .type {
+                        padding: 6px;
+                        width: 50%;
+                    }
+    
+                    .qty {
+                        padding: 6px;
+                        width: 20%;
+                        text-align: center;
+                    }
+    
+                    .price {
+                        padding: 6px;
+                        width: 15%;
+                        text-align: center;
+                    }
+    
+                    .total {
+                        padding: 6px;
+                        width: 15%;
+                        text-align: center;
+                    }
+    
+                }
+                tbody {
+                    background-color: white;
+                    td {
+                        padding: 6px;
+                        font-size: 16px;
+                    }
+                    .type {
+                        width: 50%;
+                        .upcontent {
+                            font-weight: bold;
+                        }
+                    }
+    
+                    .qty {
+                        width: 20%;
+                        text-align: center;  
+                        input {
+                            width: 40%;
+                            border: 1px solid lightgray;
+                            padding: 2px;
+                            text-align: center;
+                            font-size: 16px;
+                        }  
+                        .minus, .plus {
+                            border-radius: 100px;
+                            border: none;
+                            width: 15%;
+                            margin: 0 7px;
+                            color: white;
+                        }
+                        .minus {
+                            background-color: lightgray;
+                        }
+                        .plus {
+                            background-color: rgb(75, 42, 42);
+                        }
+                    }
+    
+                    .price {
+                        width: 15%;
+                        text-align: center;
+                    }
+    
+                    .total {
+                        width: 15%;
+                        text-align: center;
+                    }
+    
+                    .lasttype {
+                        width: 50%;
+                        color: red;
+                        text-align: left;
+                    }
+                    .lasttotal {
+                        width: 15%;
+                        color: red;
+                        text-align: center;
+                    }
+
+                    .typecombo {
+                        display: flex;
+                        .comboleft {
+                            width: 40%;
+                            >img {
+                                width: 100%;
+                            }
+                            margin-right: 10px;
+                        }
+                        .comboright {
+                            .upcontent {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+        
+    }    
+}

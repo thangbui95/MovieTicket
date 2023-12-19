@@ -1,0 +1,52 @@
+.payment {
+    .left {
+        background-color: red;
+        padding: 10px;
+        .text_time {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0 20px 0;
+            >h3 {
+                color: white;    
+            }
+        }
+        .insidecover {
+            font-size: 14px;
+            background-color: white;
+            padding: 20px;
+            .row {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                p {
+                    margin-right: 30px;
+                    width: 30%;
+                }
+                .information {
+                    padding: 10px;
+                    width: 50%;
+                    border: 1px solid gray;
+                }
+                .information1 {
+                    padding: 10px;
+                    width: 50%;
+                    font-size: 12px;
+                }
+                .information2 {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    button {
+                        cursor: pointer;
+                        color: white;
+                        background-color: red;
+                        padding: 10px 15px;
+                        border: none;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+}

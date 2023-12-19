@@ -1,0 +1,136 @@
+.seat {
+    .left {
+        background-color: red;
+        padding: 10px;
+        .text_time {
+            margin: 10px 0 20px 0;
+            >h3 {
+                color: white;    
+            }
+        }
+        .insidecover {
+            font-size: 12px;
+            background-color: white;
+            padding: 10px 60px;
+            box-sizing: border-box;
+            text-align: center;
+            .seatinside {
+                width: 100%;
+                .row {
+                    display: flex;
+                    margin-bottom: 3px;
+                    .null {
+                        color: white;
+                        border: none;
+                    }
+                    >p {
+                        text-align: center;
+                        width: 4%;
+                        border: 1px solid black;
+                    }
+                    .seatcover {
+                        width: 80%;
+                        margin: 0 15px;
+                        display: flex;
+                        .eachseat {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: lightgray;
+                            width: 3.2%;
+                            margin-right: 3px;
+                        }
+                        .choseseat {
+                            background-color: red;
+                        }
+                        .choosingseat{
+                            background-color: orange;
+                        }
+                        .style3 {
+                            margin: 0;
+                        }
+                        .style1 {
+                            margin-right: 6px;
+                        }
+                    }
+                }
+                .lastrow {
+                    display: flex;
+                    margin-bottom: 20px;
+                    >p {
+                        text-align: center;
+                        width: 4%;
+                        border: 1px solid black;
+                    }
+                    .seatcover {
+                        width: 80%;
+                        margin: 0 15px;
+                        display: flex;
+                        .eachseat {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: lightgray;
+                            width: 4%;
+                            margin-right: 2px;
+                        }
+                    }
+                }
+            }
+            .screen {
+                p {
+                    font-size: 12px;
+                    margin-bottom: 4px;
+                }
+                hr {
+                    width: 50%;
+                    margin-left: 25%;
+                }
+            }
+            .status {
+                margin-top: 20px;
+                display: flex;
+                .eachstatus {
+                    margin-right: 10px;
+                    width: 25%;
+                    .color {
+                        background-color: orange;
+                        display: inline-block;
+                        width: 8%;
+                        font-size: 8px;
+                        color: orange;
+                        margin-right: 4px;
+                    }
+                    .color2 {
+                        background-color: red;
+                        display: inline-block;
+                        width: 8%;
+                        font-size: 8px;
+                        color: red;
+                        margin-right: 4px;
+                    }
+                    .color3 {
+                        background-color: lightgray;
+                        display: inline-block;
+                        width: 8%;
+                        font-size: 8px;
+                        color: lightgray;
+                        margin-right: 4px;
+                    }
+                    .color4 {
+                        background-color: rgb(161, 161, 224);
+                        display: inline-block;
+                        width: 8%;
+                        font-size: 8px;
+                        color: rgb(161, 161, 224);
+                        margin-right: 4px;
+                    }
+                    .actualstatus {
+                        font-size: 10px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

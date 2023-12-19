@@ -1,0 +1,43 @@
+.personinfo {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    .content {
+        color: gray;
+        width: 85%;
+        .up {
+            display: flex;
+            h3 {
+                margin-right: 30px;
+            }
+            margin-bottom: 20px;
+        }
+
+        .personal {
+            font-size: 15px;
+            .row {
+                margin: 8px 0;
+                
+                input {
+                    padding: 5px;
+                    width: 50%;
+                }
+                p {
+                    margin-bottom: 3px;
+                }
+            }
+        }
+        
+        .ticketbought {
+            table {
+                border-collapse: collapse;
+                th, td {
+                    padding: 5px;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+    
+}
